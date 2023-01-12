@@ -168,11 +168,15 @@ li, a{
         color: aqua;
     }
     
-    li, a{
+     li, a{
         display: inline;
-        margin-left: 50px;
+        margin-left: 15px;
         color: orange;
         text-decoration: none;
+    }
+
+    .navbar{
+        width: 400px;
     }
 }
 
