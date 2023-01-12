@@ -149,5 +149,31 @@ li, a{
     grid-row: 5;
 }
 
+@media only screen and (max-width: 768px) {
+    .wrapper{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        height: 60px;
+        position: sticky;
+        top: 0;
+    }
+    
+    .logo{
+        display: inline;
+        margin-left: 20px;
+    }
+    .logo2{
+        display: inline;
+        color: aqua;
+    }
+    
+    li, a{
+        display: inline;
+        margin-left: 50px;
+        color: orange;
+        text-decoration: none;
+    }
+}
 
 
