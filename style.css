@@ -149,34 +149,43 @@ li, a{
     grid-row: 5;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780px) and (min-width: 200px){
     .wrapper{
         background-color: black;
         color: white;
         padding: 10px;
         height: 60px;
         position: sticky;
+        width: auto;
         top: 0;
     }
     
     .logo{
         display: inline;
         margin-left: 20px;
+        font-size: 20px;
     }
     .logo2{
         display: inline;
         color: aqua;
+        font-size: 20px;
     }
     
-     li, a{
+    li, a{
         display: inline;
-        margin-left: 15px;
+        margin-left: 10px;
         color: orange;
         text-decoration: none;
     }
 
     .navbar{
         width: 400px;
+    }
+
+    .fotoprofil{
+        border-radius: 30px;
+        width: auto;
+        height: auto;
     }
 }
 
