@@ -1,3 +1,3 @@
 # profile.github.io
 ini link nya 
-profile.github.io
+https://diditaditya06.github.io/profile.github.io
