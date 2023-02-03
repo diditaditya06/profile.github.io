@@ -4,50 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>CV Didit Aditya</title>
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body >
     <!--navbar-->
-    <div class="wrapper">
-        <div class="navbar">
-            <h1 class="logo">Didit <h2 class="logo2">Aditya</h2> </h1>
-                <li><a href="index.html" >Profile</a></li>
-                <li><a href="https://www.linkedin.com/in/diditaditya02" target="_blank">Linked</a></li>
-                <li><a href="https://github.com/diditaditya06" target="_blank">Github</a></li>
-            </ul>
+    <nav class="navbar" >
+        <div class="navbar-logo">
+            <h1 >Didit <span>Aditya</span></h1>
+        </div>    
+        <div class="navbar-nav ">
+            <a href="index.html" >Home</a></li>
+            <a href="https://www.linkedin.com/in/diditaditya02" target="_blank">Linked</a></li>
+            <a href="https://github.com/diditaditya06" target="_blank">Github</a></li>
         </div>
-    </div>
+        <div class="navbar-profile">
+            <a href="#" target="_blank"><span class="material-symbols-outlined" title="Contact">
+                phone_iphone
+                </span></a></li>
+            <a href="#" id="list-menu"><span class="material-symbols-outlined" title="Menu">
+                menu
+                </span></a>
+        </div>
+    </nav>
     <!--end navbar-->
 
+    <div class="ubah-warna">
+        <input type="text" placeholder="ketik warna background" id="input">
+        <button class="btntekan" onClick="tekanbtn()">tekan</button>
+    </div>
+
+
     <!--column-->
-    <div class="row">
-        <div class="grid-container">
-            <div class="column item1">
-                <img src="./asset/diditterbaru.jfif" alt="Foto Didit Background Biru" title="Didit Foto" class="fotoprofil">
+    <div class="isi-data" id="body">
+        <div>
+            <img src="./asset/diditterbaru.JPG" class="foto-profile" alt="foto profile" title="foto profile">
+        </div>
+        <div class="biografi">
+            <div class="biografi-nama"><a href="#about">Nama</a></div>
+            <div class="biografi-education"><a href="#pendidikan">Education</a></div>
+            <div class="biografi-skill">Skill</div>
+            <div class="biografi-minat">Interest</div>
+        </div>
+    </div>
+    <div class="section" id="section">
+        <section id="about" class="about">
+            <div class="span-about"> 
+                <h2><span>Didit Aditya</span></h2>
             </div>
-            <div class="column item2">
-                <div class="profilename"><h1 class="nama">Nama</h1><button class="btnnama"><span class="material-symbols-outlined">add</span></button></div>
-            </div>
-            <div class="column item3">
-                <div class="pendidikan"><h1 class="namakampus">Pendidikan</h1><button class="btnpendidikan"><span class="material-symbols-outlined">add</span></button></div>
-            </div>
-            <div class="column item4">
-                <div class="profilename"><h1 class="nama">Nama</h1><button class="btnnama"><span class="material-symbols-outlined">add</span></button></div>
-            </div>
-            <div class="column item5">
-                <div class="pendidikan"><h1 class="namakampus">Pendidikan</h1><button class="btnpendidikan"><span class="material-symbols-outlined">add</span></button></div>
-            </div>
-            <div class="column item6">
-                <div class="profilename"><h1 class="nama">Nama</h1><button class="btnnama"><span class="material-symbols-outlined">add</span></button></div>
+           
+            <div class="row">
+                <div class="about-img">
+                    <img src="./asset/about-ketawa.jpg" class="about-foto" alt="Ketawa sepuasnya">
+                </div>
+                <div class="content">
+                <h3>Tentang Didit</h3>
+                    <p>Saya Lulusan STIKOM POLTEK CIREBON tahun 2022 Saya Sedang mengembangkan website portofolio saya menggunakan HTML,CSS,dan JAVASCRIPT,kemungkinan saya akan menggunakan bootstrap jika saya sudah menguasai HTML,CSS dan JAVASCRIPT tanpa saya lihat di internet dan youtube.Selain HTML,CSS,dan JAVASCRIPT Saya minat pada Bahasa Java karena bisa membuat aplikasi android yang saya inginkan sejak kelas 3 SMA , Saya Sedangkan Belajar Bahasa Java dengan Target 1 Bulan.</p>
+                    <p>Saya Akan Terus Meng-Upgrade Skill saya Hingga saya Bisa, selain itu saya sedang Belajar Microsoft Office diantaranya Microsoft Word,Excel dan PowerPoint. Sebab Saya Tertarik juga di Bidang Administrasi, Bidang Data Entry Dan Lainnya yang Berhubungan Dengan Microsoft Office.Waktu Saya kuliah Saya Menyesal Karena Tidak Ikut Organisasi Dan Belajar Dengan Tekun Sehingga Sekarang Saya sedang Fokus Mempelajari Bahasa Java yang pernah Saya Dapat di Perkuliahan </p>
             </div>
         </div>
-        
+        </section>
+        <section class="pendidikan">
+            <div class="span-pendidikan" id="pendidikan">
+                <h2>Jenjang <span>Pendidikan</span></h2>
+            </div>
+            <div class="universitas">
+                <h3>STIKOM POLTEK CIREBON</h3>
+                <h5>Agustus 2018 - September 2022</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quisquam sapiente sed ipsam, voluptas ad repellat inventore, eligendi corrupti asperiores illum vitae aperiam doloribus sint libero exercitationem perspiciatis, unde corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae aliquam fugiat et veniam atque earum. Repellendus aliquid facilis provident quo quod assumenda velit nulla? Pariatur laborum facere in soluta impedit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae obcaecati, quisquam eos, recusandae at harum magni rerum soluta voluptate dolores, nihil dolor! Quo odit, iste distinctio reprehenderit nemo nulla aut?</p>
+            </div>
+        </section>
     </div>
-    <!--end column-->
-
-    <script src="script.js"></script>
+    
+    <script src="script.js"> </script>
 </body>
 </html>
