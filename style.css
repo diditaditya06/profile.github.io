@@ -151,7 +151,7 @@ body{
     border-radius: 2px;
     height: 30px;
     width: 60px;
-    background-color: #f0b40e;
+    background-color: #0099ff;
     cursor: pointer;
 }
 
@@ -276,7 +276,7 @@ body{
 }
 .span-about{
     padding-top: 35px;
-   
+
 }
 .row{
     display: block;
@@ -284,10 +284,10 @@ body{
 }
 
 .about-foto{
-    width: 350px;
+    width: 290px;
     height: 350px;
     border-radius: 20px;
-    margin-left: 400px;
+    margin-left: 429px;
 }
 
 .about h2, .pendidikan h2{
@@ -299,6 +299,7 @@ body{
 h2{
     color: #fff;
 }
+
 
 .about h2 span, .pendidikan h2 span {
     color: yellow;
@@ -334,7 +335,7 @@ h2{
 }
 
 .span-pendidikan{
-    padding-top: 8px;
+    padding-top: 80px;
 }
 .universitas{
     color: #fff;
@@ -374,6 +375,141 @@ h2{
     text-align: justify;
 }
 
+.skill, .minat{
+    color: #fff;
+}
+
+.skill .span-skill, .span-minat {
+    padding-top: 80px;
+}
+
+.skill .span-skill .judul-skill, .judul-minat{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 2.6rem;
+}
+
+.keahlian{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #fff solid 2px;
+    margin: 300px;
+    gap: 90px;
+    margin-top: 100px;
+    line-height: 1.6;
+    height: 200px;
+}
+
+.sangat-minat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #fff solid 2px;
+    margin: 150px;
+    gap: 80px;
+    margin-top: 100px;
+    line-height: 1.2;
+    height: 200px;
+}
+
+
+.skill .keahlian ul, .sangat-minat ul{
+    list-style-type: square ;
+}
+
+.wrap-persen{
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+width:auto;
+height: 30px;
+justify-content: center;
+align-items: center;
+}
+
+.persen{
+    list-style-type: none;
+    background-color: #0099ff;
+    width: 200px;
+    height: 10px;
+}
+
+.persen-span{
+    background-color: #fffb00;
+    width: 190px;
+    height: 10px;
+}
+
+.persen-span-full{
+    background-color: #fffb00;
+    width: 190px;
+    height: 10px;
+}
+
+.persen-span-tpuluh{
+    background-color: #fffb00;
+    width: 170px;
+    height: 10px;
+}
+.persen-span-dpuluh{
+    background-color: #fffb00;
+    width: 180px;
+    height: 10px;
+}
+
+.persen-angka{
+    list-style-type: none;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.persen-angka-full{
+    list-style-type: none;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.skill .keahlian .kanan{
+    margin-left: 60px;
+}
+
+.skill .keahlian .kiri{
+    margin-right: 60px;
+    
+}
+
+.sangat-minat .kanan{
+    margin-left: 60px;
+}
+
+.sangat-minat .kiri{
+    margin-right: 60px;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 1rem 0 3rem;
+    margin-top: 3rem;
+}
+
+footer .credit {
+    font-size: 0.8rem;
+}
+
+footer .credit a {
+    font-weight: 700;
+    color: #fd5d00;
+}
+
+footer .credit p{
+    color: #fff;
+}
+
 /* Responsive */
 
 @media(max-width:405px){
@@ -410,13 +546,13 @@ h2{
         height: 100vh;
         transition: 0.3s;
         z-index: 999;
-      }
+    }
     
-      .navbar .navbar-nav.active {
+    .navbar .navbar-nav.active {
         right: 0;
-      }
+    }
     
-      .navbar .navbar-nav a {
+    .navbar .navbar-nav a {
         color: var(--bg);
         display: block;
         margin: 1.5rem;
@@ -424,91 +560,125 @@ h2{
         font-size: 2rem;
         color: #fff;
         text-align: center;
-      }
+    }
     
-      .navbar .navbar-nav a::after {
+    .navbar .navbar-nav a::after {
         transform-origin: 2 0;
-      }
+    }
     
-      .navbar .navbar-nav a:hover::after {
+    .navbar .navbar-nav a:hover::after {
         transform: scaleX(0.3);
-      }
+    }
 
     .foto-linked, .foto-github{
         display: none;
     }
 
-      .span-icon{
+    .span-icon{
         display:contents;
     }
-      .ubah-warna{
+    .ubah-warna{
         display: relative;
         top: 80px;
         right: 0;
         left: 80px;
         margin-bottom: 30px;
         position: absolute;
-       z-index: 1;
+        z-index: 1;
     }
 
-      .isi-data{
+    .isi-data{
         flex-wrap: wrap;
         margin-top: 90px;
-      }
+    }
 
-      .foto-profile{
+    .foto-profile{
         width: 200px;
         height: 200px;
-      }
+    }
 
-      .biografi{
+    .biografi{
         margin-top: 1px;
         margin-bottom: 110px;
         padding: 20px;
-      }
+    }
 
-      .biografi .biografi-nama{
+    .biografi .biografi-nama{
         width: 300px;
-      }
-      .biografi .biografi-education{
+    }
+    .biografi .biografi-education{
         width: 300px;
-      }
-      .biografi .biografi-skill{
+    }
+    .biografi .biografi-skill{
         width: 300px;
-      }
-      .biografi .biografi-minat{
+    }
+    .biografi .biografi-minat{
         width: 300px;
-      }
-      .section{
+    }
+    .section{
         flex-wrap: wrap;
-      }
-      .about-foto{
+    }
+    .about-foto{
         position: relative;
         margin-left: 65px;
         margin-top: 0;
-      }
-      .about-foto{
+    }
+    .about-foto{
         width: 200px;
         height: 200px;
         justify-content: center;
-      }
-      .about{
+    }
+    .about{
         padding: 5rem 7% 2rem;
-       
-      }
+    
+    }
 
-      .pendidikan{
+    .pendidikan{
         
         padding: 1rem;
-      }
+    }
 
-      .span-pendidikan{
+    .span-pendidikan{
         padding-top: 90px;
-       
-      }
+    
+    }
 
-      .span-pendidikan h2{
-       
+    .span-pendidikan h2{
+
         padding: 1rem;
-      }
+    }
+
+    .keahlian{
+        display: inline-block;
+        margin: 7%;
+        padding: 7%;
+        height: 380px;
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .keahlian .kanan{
+        margin-left: 0;
+        display: inline;
+    }
+    
+    .keahlian .kiri{
+        margin-right: 0;
+        display: inline;
+    }
+    .sangat-minat{
+        padding: 7%;
+        margin:  7%;
+        height: 500px;
+        display: inline-block;
+        font-size: 13px;
+    }
+    .sangat-minat .kanan{
+        margin-left: 0;
+        display: inline;
+    }
+    .sangat-minat .kiri{
+        margin-right: 0;
+        display: inline;
+    }
 }
