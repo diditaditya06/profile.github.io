@@ -63,7 +63,7 @@ function education() {
 const count = document.getElementById("count");
 totalupdate();
 function totalupdate(){
-  fetch("https://api.countapi.xyz/hit/swapnilsprash/?amount=1")
+  fetch("https://api.countapi.xyz/hit/kosong/?amount=1")
   .then((res)=>res.json())
   .then((res)=>{count.innerHTML=res.value;
   val(count,0,res.value,1000);
