@@ -182,6 +182,20 @@ body{
     color: black;
 }
 
+.isi-bungkus{
+    justify-content: space-between;
+    display: flex;
+}
+.expands,#foto{
+    width: 30px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+hr{
+    color:black; border: 1px solid;
+}
+
 .biografi .biografi-nama{
     background-color: #0b4bfc;
     width: 500px;
@@ -189,25 +203,22 @@ body{
     margin-left: 25px;
     font-size: 30px;
     padding: 5px;
-    text-indent: 40px;
+    text-indent: 4px;
 }
 
-.biografi .biografi-nama span{
-    position: static;
+.hasil-nama,.hasil-education{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+
+.hasil-nama span{
     color: yellow;
-    margin-left: 200px;
-    cursor: pointer;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.biografi .biografi-hasilnama{
-    background-color: #0b4bfc;
-    width: 500px;
-    height: 50px;
-    font-size: 30px;
-    padding: 5px;
-    text-indent: 40px;
-    z-index: 999;
-}
 .biografi .biografi-education{
     background-color: #ecf00e;
     width: 500px;
@@ -216,8 +227,39 @@ body{
     margin-top: 6px;
     font-size: 30px;
     padding: 5px;
-    text-indent: 40px;
+    text-indent: 4px;
 }
+
+.biografi-education h3,h5,p{
+    font-size: 1.5rem;
+}
+
+.biografi-education h5{
+    text-align:left;
+    text-indent: 5px;
+}
+
+.biografi-education p{
+    text-indent: 10px;
+    text-align: justify;
+}
+
+.biografi-education h3{
+    margin-top: 10px;
+}
+
+.biografi-education .st ,.pol{
+    color: red;
+}
+
+.biografi-education .ik{
+    color:greenyellow;
+}
+.universitas .om{
+    color: rgb(0, 140, 255);
+}
+
+
 .biografi .biografi-skill{
     background-color: #0b4bfc;
     width: 500px;
@@ -226,7 +268,7 @@ body{
     margin-left: 25px;
     font-size: 30px;
     padding: 5px;
-    text-indent: 40px;
+    text-indent: 4px;
 }
 
 .biografi .biografi-minat{
@@ -237,7 +279,7 @@ body{
     margin-top: 6px;
     font-size: 30px;
     padding: 5px;
-    text-indent: 40px;
+    text-indent: 4px;
 }
 
 .foto-profile:hover{
@@ -406,7 +448,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     border: #fff solid 2px;
-    margin: 150px;
+    margin: 145px;
     gap: 80px;
     margin-top: 100px;
     line-height: 1.2;
@@ -682,3 +724,7 @@ footer .credit p{
         display: inline;
     }
 }
+
+
+
+
