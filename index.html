@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./asset/icon.ico" type="image/x-icon">
     <title>CV Didit Aditya</title>
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+    <!-- <script>alert("Selamat Datang di CV Didit!")</script> -->
 
 </head>
 <body >
@@ -26,7 +26,7 @@
         </div>
 
         <div class="navbar-profile">
-            <a href="#" target="_blank"><span class="material-symbols-outlined" title="Contact" >Phone_Iphone</span></a></li>
+            <a href="https://wa.me/6289603152844?text=Nama%3A%0ANo.%20HP%3A%0AAlamat%3A%0APesanan%3A%0AJumlah%3A" target="_blank"><span class="material-symbols-outlined" title="Contact" >Phone_Iphone</span></a></li>
             <a href="#" id="list-menu"><span class="material-symbols-outlined" title="Menu">menu</span></a>
         </div>
 
@@ -46,11 +46,43 @@
             <img src="./asset/diditterbaru.JPG" class="foto-profile" alt="foto profile" title="foto profile">
         </div>
 
-        <div class="biografi">
-            <div class="biografi-nama"><a href="#about">Nama</a></div>
-            <div class="biografi-education"><a href="#pendidikan">Education</a></div>
-            <div class="biografi-skill"><a href="#skill">Skill</a></div>
-            <div class="biografi-minat"><a href="#interested">Interested</a></div>
+        <div class="biografi" id="biografi">
+            <div class="biografi-nama" id="bungkus-nama">
+                <div class="isi-bungkus">
+                    <a href="#about">Nama</a>
+                    <img src="./asset/v.png" alt="expands" class="expands" onclick="nama()" id="icon-nama">
+                </div>
+                <div class="hasil-nama" id="hasil-nama">
+                    <hr>
+                    <span>Didit Aditya</span>
+                </div>
+            </div>
+            <div class="biografi-education" id="bungkus-education">
+                <div class="isi-bungkus">
+                    <a href="#pendidikan">Education</a>
+                    <img src="./asset/v.png" alt="expands" class="expands" onclick="education()" id="icon-education">
+                </div>
+                <div class="hasil-education" id="hasil-education">
+                    <hr>
+                    <h3><b><span class="st">ST</span><span class="ik">IK</span><span class="om">OM</span> <span class="pol">POLTEK</span> CIREBON</b></h3>
+                    <h5>Agustus 2018 - September 2022</h5>
+                    <p>Saya Lulus pada Tanggal 23 September 2022 Di Sekolah Tinggi Ilmu Komputer Poltek Cirebon(STIKOM POLTEK CIREBON)
+                </div>
+            </div>
+            <div class="biografi-skill" id="bungkus-skill">
+                <div class="isi-bungkus">
+                    <a href="#skill">Skill</a>
+                    <img src="./asset/v.png" alt="expands" class="expands" onclick="nama()">
+                </div>
+                
+            </div>
+            <div class="biografi-minat" id="bungkus-minat">
+                <div class="isi-bungkus">
+                    <a href="#interested">Interested</a>
+                    <img src="./asset/v.png" alt="expands" class="expands" onclick="nama()">
+                </div>
+                
+            </div>
         </div>
     </div>
 
@@ -65,7 +97,7 @@
             <div class="row">
 
                 <div class="about-img">
-                    <img src="./asset/bgbiru.JPG" class="about-foto" alt="Didit Aditya">
+                    <img src="./asset/bgbiru.jpg" class="about-foto" alt="Ketawa sepuasnya">
                 </div>
 
                 <div class="content">
@@ -210,6 +242,8 @@
         
     <footer > 
         <div class="credit">
+        <h1 style="font-size: 20px; color: white;">Visitor</h1>
+        <p id="count" style="font-size: 20px; color: white;">0</p>
         <p>Created by <a href="">Didit Aditya</a>. | &copy; 2023.</p>
       </div>
     </footer>
