@@ -155,6 +155,22 @@ body{
     cursor: pointer;
 }
 
+.visitor{
+    display: flex;
+    top: 80px;
+    width: 160px;
+    height: 55px;
+    align-items: center;
+    justify-content: space-between;
+    right: 0;
+    left: 50px;
+    position: fixed;
+    z-index: 999999;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #03af03;
+}
+
 .isi-data{
     background-color: black;
     justify-content: center;
